@@ -40,7 +40,7 @@ public class QueryWithoutContext {
                 //int year = resultSet.getInt("year");
 
                 out.println("<br>Name: " + name + "<br>"+
-                        "Address: " + address + 
+                        "Address Showed: " + address + 
                         "<br>");
             }
         } catch (SQLException e) { e.printStackTrace(out);
